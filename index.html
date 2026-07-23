@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanya Pundir — Software Developer</title>
+<meta name="description" content="Sanya Pundir — Building software that solves real-world problems. Full-stack, AI, and IoT projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header id="siteHeader">
+  <nav class="wrap">
+    <div class="brand">Sanya<span class="dot">.</span></div>
+    <div class="navlinks">
+      <a href="#projects">Work</a>
+      <a href="#stack">Stack</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a class="btn ghost" href="./resume.pdf" download>Resume</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow"><span class="pulse"></span>Open to Data Analyst · Web Dev · SDE roles</div>
+    <h1 class="reveal">I build things<br>that <span class="accent">answer<br>questions.</span></h1>
+    <p class="lede reveal">ECE student who ships full-stack apps, turns plain English into SQL, and occasionally teaches an AI agent to audit expense reports.</p>
+    <div class="hero-actions reveal">
+      <a class="btn" href="#projects">See my work</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+    <div class="stat-row reveal">
+      <div class="stat"><div class="stat-num" data-count="8.54">0</div><div class="stat-label">CGPA · Thapar Institute</div></div>
+      <div class="stat"><div class="stat-num accent" data-count="3.7" data-prefix="+" data-suffix="%">0</div><div class="stat-label">vs baseline LLM · Hackathon</div></div>
+      <div class="stat"><div class="stat-num" data-count="3">0</div><div class="stat-label">Shipped projects</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-kicker">Selected Work</div>
+      <h2>Things I've built recently</h2>
+      <p>Full-stack, AI agents, and data — a mix of what I actually enjoy building.</p>
+    </div>
+
+    <div class="case reveal">
+      <div class="case-visual">
+        <div class="mock-window">
+          <div class="mock-bar"><span></span><span></span><span></span></div>
+          <div class="mock-body">
+            Finance Dashboard
+            <div class="mock-bars">
+              <div style="height:40%"></div><div style="height:65%"></div>
+              <div style="height:30%"></div><div style="height:85%"></div>
+              <div style="height:50%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="case-text">
+        <div class="role-tags"><span class="role-tag rt-web">Web Development</span></div>
+        <h3>Personal Finance Tracker</h3>
+        <div class="duration">Mar 2025 – May 2025</div>
+        <p class="desc">Full-stack finance tracker with secure auth and real-time budget &amp; savings insights.</p>
+        <div class="features">
+          <div>JWT + secure reset</div>
+          <div>Budget &amp; savings goals</div>
+          <div>Recharts dashboard</div>
+        </div>
+        <div class="challenge"><strong>Challenge:</strong> secure password-reset flow, end to end.</div>
+        <div class="stack"><span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span></div>
+        <div class="case-links">
+          <a href="#" target="_blank" rel="noopener">Live demo →</a>
+          <a href="#" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="case reverse reveal">
+      <div class="case-visual">
+        <div class="mock-window">
+          <div class="mock-bar"><span></span><span></span><span></span></div>
+          <div class="mock-body">
+            <span class="mono-line dim">$ ask </span><span id="sqlTyped"></span><span class="type-cursor">▌</span>
+            <div class="mock-bars">
+              <div style="height:55%"></div><div style="height:75%"></div>
+              <div style="height:35%"></div><div style="height:60%"></div>
+              <div style="height:90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="case-text">
+        <div class="role-tags"><span class="role-tag rt-data">Data &amp; Analytics</span><span class="role-tag rt-ai">AI</span></div>
+        <h3>InsightAI — Natural Language to SQL</h3>
+        <div class="duration">Jan 2025 – Feb 2025</div>
+        <p class="desc">Ask a question in plain English, get SQL, a chart, and an answer back in seconds.</p>
+        <div class="features">
+          <div>NL → SQL via Gemini</div>
+          <div>Schema-aware prompting</div>
+          <div>Auto-generated charts</div>
+        </div>
+        <div class="challenge"><strong>Challenge:</strong> keeping generated SQL always valid.</div>
+        <div class="stack"><span>Python</span><span>SQLite</span><span>pandas</span><span>Gemini API</span></div>
+        <div class="case-links">
+          <a href="#" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="case reveal">
+      <div class="case-visual">
+        <div class="mock-window">
+          <div class="mock-bar"><span></span><span></span><span></span></div>
+          <div class="mock-body">
+            Agent reasoning trace<br>→ checking policy: travel_v2<br>→ missing context: requesting receipt
+            <div class="mock-bars">
+              <div style="height:45%"></div><div style="height:45%"></div>
+              <div style="height:80%"></div><div style="height:70%"></div>
+              <div style="height:55%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="case-text">
+        <div class="role-tags"><span class="role-tag rt-ai">AI Agent</span></div>
+        <h3>Corporate Compliance AI Agent</h3>
+        <div class="duration">Hackathon · 48 hours</div>
+        <p class="desc">AI agent that audits expense claims with human-like, multi-turn reasoning.</p>
+        <div class="features">
+          <div>Multi-turn reasoning</div>
+          <div>Policy-aware checks</div>
+          <div>+3.5–3.7% vs baseline</div>
+        </div>
+        <div class="challenge"><strong>Challenge:</strong> agent asks for missing context before deciding.</div>
+        <div class="stack"><span>LLM Agents</span><span>Prompt Engineering</span><span>Scalar School × Meta Hackathon</span></div>
+        <div class="case-links">
+          <span style="color:var(--text-faint); font-size:14px;">Hackathon Finalist</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-kicker">Tech Stack</div>
+      <h2>Tools I build with</h2>
+    </div>
+    <div class="stack-groups reveal">
+      <div class="stack-group">
+        <h4>Languages</h4>
+        <div class="pills"><span>Python</span><span>JavaScript</span><span>SQL</span><span>C / C++</span></div>
+      </div>
+      <div class="stack-group">
+        <h4>Frontend</h4>
+        <div class="pills"><span>React.js</span><span>React Hooks</span><span>Context API</span><span>Recharts</span></div>
+      </div>
+      <div class="stack-group">
+        <h4>Backend &amp; Data</h4>
+        <div class="pills"><span>Node.js / Express</span><span>MongoDB</span><span>SQLite</span><span>JWT · Bcrypt</span></div>
+      </div>
+      <div class="stack-group">
+        <h4>AI &amp; Fundamentals</h4>
+        <div class="pills"><span>Gemini API</span><span>Prompt Engineering</span><span>DSA · OS · DBMS</span><span>Computer Networks</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="achievements">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-kicker">Achievements</div>
+      <h2>A quick track record</h2>
+    </div>
+    <div class="timeline reveal">
+      <div class="tl-item">
+        <h4>Hackathon Finalist</h4>
+        <p>Scalar School × Meta Hackathon — built the Corporate Compliance AI Agent, improving multi-turn decision accuracy by <strong>3.5–3.7%</strong> over baseline LLM.</p>
+      </div>
+      <div class="tl-item">
+        <h4>Vice President, Finance</h4>
+        <p>Global Village, AIESEC — led financial planning and operations for the initiative.</p>
+      </div>
+      <div class="tl-item">
+        <h4>Best Team Leader (First Term)</h4>
+        <p>Incoming Talent Department, AIESEC.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-kicker">About Me</div>
+      <h2>A little more context</h2>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-card">
+        <h4>Education</h4>
+        <p>B.E. in Electronics &amp; Computer Engineering, Thapar Institute of Engineering &amp; Technology — CGPA 8.54/10.</p>
+      </div>
+      <div class="about-card">
+        <h4>Current Focus</h4>
+        <p>Building full-stack apps with React &amp; Node.js, while exploring AI agents and LLM-powered tools.</p>
+      </div>
+      <div class="about-card">
+        <h4>Interests</h4>
+        <p>Turning messy data into clean insight, API design, and automation with AI agents.</p>
+      </div>
+      <div class="about-card">
+        <h4>Beyond Coding</h4>
+        <p>Finance &amp; leadership roles at AIESEC — Vice President and Best Team Leader awardee.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <h2>Let's build something together.</h2>
+      <p>Open to Data Analyst, Web Development and SDE opportunities — reach out any time.</p>
+      <div class="contact-links">
+        <a href="mailto:sanya9a05@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6l-10 7L2 6"/><path d="M2 6h20v12H2z"/></svg>
+          Email
+        </a>
+        <a href="tel:+918899670064">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call
+        </a>
+        <a href="#" id="linkedin-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.5 8h4V23h-4V8zm7.5 0h3.8v2.05h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V23h-4v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.65 1.8-2.65 3.65V23h-4V8z"/></svg>
+          LinkedIn
+        </a>
+        <a href="#" id="github-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.02 3.26 9.28 7.78 10.78.57.1.78-.25.78-.55v-2.15c-3.16.69-3.83-1.36-3.83-1.36-.52-1.3-1.26-1.65-1.26-1.65-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.13-1.16 3.13-1.16.63 1.57.24 2.73.12 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.11v3.13c0 .3.2.66.79.55A10.53 10.53 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="sig">Designed &amp; developed by Sanya Pundir</div>
+  <span id="year"></span>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
