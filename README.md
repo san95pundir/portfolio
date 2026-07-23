@@ -60,7 +60,7 @@ This site is deployed on **Vercel**. Any changes pushed to the `main` branch are
 - **Portfolio:**  [portfolio-nine-lemon-33.vercel.app](https://portfolio-nine-lemon-33.vercel.app)
 - **Email:** sanya9a05@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/sanya-pundir-041161290/
-- **GitHub:** (https://github.com/san95pundir)
+- **GitHub:** https://github.com/san95pundir
 
 ---
 
