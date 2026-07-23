@@ -7,7 +7,7 @@
 
 A personal portfolio website showcasing my projects, skills, and experience as a Software Developer focused on full-stack development, AI, and data.
 
-**🔗 Live site:** [your-live-link-here](#)
+**🔗 Live site:** [portfolio-nine-lemon-33.vercel.app](https://portfolio-nine-lemon-33.vercel.app)
 
 ## 👋 About
 
@@ -57,9 +57,9 @@ This site is deployed on **Vercel**. Any changes pushed to the `main` branch are
 
 ## 📬 Contact
 
-- **Portfolio:** [Add your live site link here]
+- **Portfolio:**  [portfolio-nine-lemon-33.vercel.app](https://portfolio-nine-lemon-33.vercel.app)
 - **Email:** sanya9a05@gmail.com
-- **LinkedIn:** [Add your link]
+- **LinkedIn:** https://www.linkedin.com/in/sanya-pundir-041161290/
 - **GitHub:** [Add your link]
 
 ---
